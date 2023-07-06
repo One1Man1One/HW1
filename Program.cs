@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число N");
+﻿//задание номер 4
+Console.WriteLine("Введите число N");
 int n = Convert.ToInt32(Console.ReadLine());
 for(int i=1;i<=n;i++)
 {
