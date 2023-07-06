@@ -13,3 +13,15 @@ if (a % 2 == 0)
 System.Console.WriteLine("Число: " + a + " четное");
 else 
 System.Console.WriteLine($"Число: {a} нечетное");
+//задание 2
+Console.WriteLine("Введите число");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите третье число");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = a;   
+if (max < b) max = b;
+if (max < c) max = c;
+System.Console.WriteLine("максимальное из этих чисел="+ max);
+//задание 1
