@@ -2,7 +2,9 @@
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int b = Convert.ToInt32(Console.ReadLine());
-if (a > b)
-System.Console.WriteLine("Большее число: " + a + ", меньшее число: " + b);
-else 
-System.Console.WriteLine($"Большее число: {a}, меньшее число: {b}");
+Console.WriteLine("введите третье число");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = a;   
+if (max < b) max = b;
+if (max < c) max = c;
+System.Console.WriteLine("максимальное из этих чисел="+ max);
